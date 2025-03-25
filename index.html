@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechHaven</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>TechHaven</h1>
+            <ul class="nav-menu">
+                <li><a href="#featured">Featured Gadgets</a></li>
+                <li><a href="#devices">Device List</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li>
+                    <a href="#">More</a>
+                    <ul class="dropdown">
+                        <li><a href="#faq">FAQs</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#feedback">Feedback</a></li>
+                    </ul>
+                </li>
+                <li><input type="text" placeholder="Search..."></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Featured Gadgets Section -->
+        <section id="featured">
+            <h2>Featured Gadgets</h2>
+            <div class="gadget-container">
+                <div class="gadget">
+                    <img src="apple-watch-series-9.jpg" alt="Apple Watch Series 9" class="gadget-image">
+                    <h3>Apple Watch Series 9</h3>
+                    <p>Advanced health tracking and seamless iOS integration.</p>
+                    <a href="https://www.amazon.com/dp/B09ABC123?tag=yourtrackingID" target="_blank">Buy Now</a>
+                </div>
+                <div class="gadget">
+                    <img src="samsung-galaxy-watch-6.jpg" alt="Samsung Galaxy Watch 6 Classic" class="gadget-image">
+                    <h3>Samsung Galaxy Watch 6 Classic</h3>
+                    <p>Rotating bezel and fitness-focused features.</p>
+                    <a href="https://www.amazon.com/dp/B09ABC456?tag=yourtrackingID" target="_blank">Buy Now</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Device List Section -->
+        <section id="devices">
+            <h2>Device List</h2>
+            <ul>
+                <li><img src="iphone-15-pro-max.jpg" alt="Apple iPhone 15 Pro Max"> Apple iPhone 15 Pro Max</li>
+                <li><img src="samsung-s23-ultra.jpg" alt="Samsung Galaxy S23 Ultra"> Samsung Galaxy S23 Ultra</li>
+                <li><img src="sony-wh-1000xm5.jpg" alt="Sony WH-1000XM5 Headphones"> Sony WH-1000XM5 Headphones</li>
+                <li><img src="amazon-echo-show-15.jpg" alt="Amazon Echo Show 15"> Amazon Echo Show 15</li>
+                <li><img src="lg-oled-c3.jpg" alt="LG OLED C3 TV"> LG OLED C3 TV</li>
+            </ul>
+        </section>
+
+        <!-- Blog Section -->
+        <section id="blog">
+            <h2>Latest Blog Posts</h2>
+            <article>
+                <h3>Top 5 Smartwatches of 2025</h3>
+                <p>Discover the best smartwatches to keep you ahead of the game...</p>
+                <a href="#">Read more</a>
+            </article>
+            <article>
+                <h3>How to Choose the Perfect Laptop</h3>
+                <p>Find out what to consider when buying your next laptop...</p>
+                <a href="#">Read more</a>
+            </article>
+            <article>
+                <h3>The Evolution of Smartphones: What’s Next?</h3>
+                <p>Explore the fascinating journey of smartphones and the innovations to come...</p>
+                <a href="#">Read more</a>
+            </article>
+            <article>
+                <h3>Best Noise-Canceling Headphones for Work and Travel</h3>
+                <p>Compare industry-leading headphones for focus and comfort...</p>
+                <a href="#">Read more</a>
+            </article>
+            <article>
+                <h3>Smart Home Gadgets to Simplify Your Life</h3>
+                <p>Discover gadgets like smart assistants and security cameras to enhance your home...</p>
+                <a href="#">Read more</a>
+            </article>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq">
+            <h2>FAQs</h2>
+            <div>
+                <h3>What is TechHaven?</h3>
+                <p>TechHaven is your one-stop platform for discovering the latest tech gadgets and reviews.</p>
+            </div>
+            <div>
+                <h3>How can I buy the gadgets listed?</h3>
+                <p>Click the “Buy Now” links to be redirected to trusted retailers like Amazon.</p>
+            </div>
+            <div>
+                <h3>How can I contact TechHaven?</h3>
+                <p>Use the contact form or email us at support@techhaven.com.</p>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="https://formsubmit.co/your-email@example.com" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+        <!-- Feedback Form Section -->
+        <section id="feedback">
+            <h2>Give Us Your Feedback</h2>
+            <form action="https://formsubmit.co/your-email@example.com" method="POST">
+                <label for="feedback-message">Your Feedback:</label>
+                <textarea id="feedback-message" name="feedback" rows="4" required></textarea>
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 TechHaven | Crafted by Gilbert</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
